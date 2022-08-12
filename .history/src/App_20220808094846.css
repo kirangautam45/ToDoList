@@ -15,7 +15,7 @@ body {
 .container{
   
   flex-direction: column;
-  justify-content: c;
+  justify-content: center;
   width: 50%;
   min-height: 600px;
   background: #4a5792;

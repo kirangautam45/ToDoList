@@ -3,8 +3,7 @@ import React from "react";
 const TodoForm = ({ newTask, setNewTask, addTask }) => {
   return (
     <div>
-      
-        <div className="col">
+      < className="row">
           <input
             value={newTask}
             onChange={(e) => setNewTask(e.target.value)}
@@ -16,6 +15,7 @@ const TodoForm = ({ newTask, setNewTask, addTask }) => {
             Add Task
           </button>
         </div>
+      
     </div>
   );
 };

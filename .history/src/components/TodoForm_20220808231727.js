@@ -3,7 +3,7 @@ import React from "react";
 const TodoForm = ({ newTask, setNewTask, addTask }) => {
   return (
     <div>
-      
+      <di className="row">
         <div className="col">
           <input
             value={newTask}
@@ -16,6 +16,7 @@ const TodoForm = ({ newTask, setNewTask, addTask }) => {
             Add Task
           </button>
         </div>
+      </di>
     </div>
   );
 };
